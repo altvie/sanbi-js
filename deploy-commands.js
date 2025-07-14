@@ -1,7 +1,8 @@
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
-const { REST, Routes } = require('@discordjs/rest');
+const { REST } = require('@discordjs/rest');
+const { Routes } = require('discord-api-types/v10');
 
 const commands = [];
 
@@ -29,7 +30,7 @@ const loadCommands = (dir = '') => {
 loadCommands();
 
 // Bot + Server info dari environment
-const token = process.env.DISCORD_TOKEN;
+const token = process.env.BOT_TOKEN;
 const clientId = process.env.CLIENT_ID;
 const guildId = process.env.GUILD_ID;
 
