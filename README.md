@@ -7,7 +7,7 @@ discord-bot/
 ├── src/
 │   ├── commands/
 │   ├── ├── admin/
-│   │   └──  kick.js
+│   │   └── kick.js
 │   ├── ├── general/
 │   │   └── ping.js
 │   ├── events/
