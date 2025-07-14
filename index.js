@@ -30,7 +30,7 @@ const loadCommands = (dir) => {
     }
   }
 };
-loadCommands('');
+loadCommands();
 
 // Events handler
 const eventsPath = path.join(__dirname, 'src', 'events');
