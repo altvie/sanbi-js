@@ -30,7 +30,7 @@ const loadCommands = (dir) => {
     }
   }
 };
-loadCommands();
+loadCommands('');
 
 // Events handler
 const eventsPath = path.join(__dirname, 'src', 'events');
@@ -43,4 +43,4 @@ fs.readdirSync(eventsPath).forEach((file) => {
   }
 });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.BOT_TOKEN);
