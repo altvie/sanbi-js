@@ -6,6 +6,8 @@ Discord bot using javascript.
 discord-bot/
 ├── src/
 │   ├── commands/
+│   ├── ├── admin/
+│   │   └──  kick.js
 │   ├── ├── general/
 │   │   └── ping.js
 │   ├── events/
@@ -18,4 +20,5 @@ discord-bot/
 ├── .gitignore
 ├── package.json
 └── README.md
+
 ```
